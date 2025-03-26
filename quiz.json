@@ -2,12 +2,12 @@
         {
             "question": "Quan sát file /etc/shadow ta thấy dòng sau: sinhvien:\n $6$3WWbKfr1$4vblknvGr6FcDeF92R5xF/n3mskfdnEnnWNtLdl.\nEtq5oLVqj.UVhoWJKF4.FstCXcrj4SkARtpAigfRm1:15747:0:90:5:30:16018:\nHãy cho biết thuật toán dùng mã hóa mật khẩu ở đây là gì?",
             "options": ["SHA256", "SHA512", "MD5", "DES"],
-            "answer": "SHA256"
+            "answer": "SHA512"
         },
         {
             "question": "Mã khởi động (boot code) của Grub nằm ở đâu trên HDD?",
             "options": ["/boot/grub/grub.conf", "Boot ROM", "/boot", "MBR"],
-            "answer": "/boot"
+            "answer": "MBR"
         },
         {
             "question": "Câu lệnh nào sau đây được dùng để kiểm tra cấp chạy hiện tại?",
@@ -97,7 +97,7 @@
         {
             "question": "Tập tin sau đây có thuộc tính như thế nào: rwx--x-wx danhsach.xls?",
             "options": ["710", "713", "644", "755"],
-            "answer": "710"
+            "answer": ""
         },
         {
             "question": "File quản lý thiết bị đĩa mềm trên Linux có thể là file nào sau đây?",
@@ -282,7 +282,7 @@
                     "0",
                     "-20"
                 ],
-                "answer": "19"
+                "answer": ""
             },
             {
                 "question": "Lập lịch với crontab: Muốn lập lịch vào lúc 17h30, thứ 6 và thứ 7 hàng tuần, với nhiệm vụ là SHUTDOWN máy, sử dụng một dòng trong tập tin crontab như thế nào?",
@@ -334,7 +334,7 @@
                         "/bash",
                         "~/.profile"
                     ],
-                    "answer": "/etc/profile"
+                    "answer": "~/profile"
                 },
                 {
                     "question": "Để kiểm tra 2 số a có lớn hơn b không ta dùng cú pháp nào sau đây (Chọn 1 đáp án đúng nhất)?",
@@ -344,7 +344,7 @@
                         "test $a -gt $b",
                         "[ a > b ]"
                     ],
-                    "answer": "test $a -gt $b"
+                    "answer": "test a -gt b"
                 },
                 {
                     "question": "Hãy cho biết lệnh nào sau đây thực hiện gán nice number là -2 cho tiến trình 'top'?",
