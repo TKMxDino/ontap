@@ -1,0 +1,204 @@
+[
+    {
+        "question": "Hãy cho biết định dạng các dòng trong tập tin /etc/fstab?",
+        "options": [
+            "/etc/default/useradd",
+            "/etc/login.defs",
+            "/etc/skel/",
+            "Cả 3 đáp án"
+        ],
+        "answer": "Cả 3 đáp án"
+    },
+    {
+        "question": "Cú pháp trên Linux Shell để tính x = 5/3 và lấy 4 chữ số thập phân?",
+        "options": [
+            "x = $(printf \"%.4f\" $(echo \"scale = 4; 5/3\" | bc))",
+            "x = 5/3 $(printf \"%.4f\")",
+            "x = 5/3",
+            "float x = 5/3 printf(\"%.4f\",x)"
+        ],
+        "answer": "x = $(printf \"%.4f\" $(echo \"scale = 4; 5/3\" | bc))"
+    },
+    {
+        "question": "Anh/chị hãy viết 1 dòng lập lịch trong bảng Cron chạy /shellscript/checksys.sh theo chu kỳ 30 phút?",
+        "options": [
+            "*/30 * * * * /shellscript/checksys.sh",
+            "*/30*/shellscript/checksys.sh",
+            "*/30**/shellscript/checksys.sh",
+            "*/30***/shellscript/checksys.sh"
+        ],
+        "answer": "*/30 * * * * /shellscript/checksys.sh"
+    },
+    {
+        "question": "Anh/chị hãy cho biết ý nghĩa của cột số 1 của file /etc/fstab?",
+        "options": [
+            "Tên của UUID",
+            "Kiểu Dữ liệu",
+            "Cột này chứa đường dẫn thiết bị hoặc UUID của phân vùng mà hệ thống sẽ mount",
+            "Cột này chứa đường dẫn thiết bị hoặc UUID của phân vùng của hệ thống"
+        ],
+        "answer": "Cột này chứa đường dẫn thiết bị hoặc UUID của phân vùng mà hệ thống sẽ mount"
+    },
+    {
+        "question": "Hãy viết câu lệnh Linux để tạo user và group theo yêu cầu sau? - Tạo group: KillNcovi - Tạo user: covid19 - Chuyển user vừa tạo vào group KillNcovi - Thay đổi password cho user vừa tạo",
+        "options": [
+            "groupadd KillNcovi useradd -m -g KillNcovi covid19 passwd covid19",
+            "roupadd KillNcovi useradd -m -g KillNcovi covid19 passwd covid19",
+            "group KillNcovi useradd -m -g KillNcovi covid19 passwd covid19",
+            "groupadd KillNcovi userad -m -g KillNcovi covid19 passwd covid19"
+        ],
+        "answer": "groupadd KillNcovi useradd -m -g KillNcovi covid19 passwd covid19"
+    },
+    {
+        "question": "Anh/chị hãy viết câu lệnh lập lịch với 'at': Chạy các câu lệnh được liệt kê trong tập tin checksys.sh vào 7am, 3 ngày tiếp theo?",
+        "options": [
+            "at 07:00 + 3 days < /path/to/checksys.sh",
+            "for i in 1 2 3; do echo \"bash /path/to/checksys.sh\" | at 07:00 +${i} days; done",
+            "echo \"bash /path/to/checksys.sh\" | at 07:00 + 3 days",
+            "at 07:00 + 3 days checksys.sh"
+        ],
+        "answer": "at 07:00 + 3 days < /path/to/checksys.sh"
+    },
+    {
+        "question": "Anh/chị hãy cho biết ý nghĩa của file /dev/sdc2?",
+        "options": [
+            "Giao diện driver cho ổ đĩa SCSI thứ 3, chỉ phân vùng thứ 2 trên ổ cứng.",
+            "Giao diện driver cho ổ đĩa SCSI thứ 3, chỉ phân vùng thứ 1 trên ổ cứng.",
+            "Giao diện driver cho ổ đĩa SCSI thứ 3, chỉ vị trí thứ 2 trên ổ cứng.",
+            "Giao diện driver cho ổ đĩa SCSI thứ 3, chỉ giá trị thứ 2 trên ổ cứng."
+        ],
+        "answer": "Giao diện driver cho ổ đĩa SCSI thứ 3, chỉ phân vùng thứ 2 trên ổ cứng."
+    },
+    {
+        "question": "Lệnh nào được dùng để đọc bản ghi lấy giá tiền của sách trong khoảng từ 300 đến 499, biết rằng giá trị nằm ở cột thứ 5?",
+        "options": [
+            "awk -F':' '$5 >= 300 && $5 <= 499'",
+            "awk -f':' '$5 >= 300 && $5 <= 499'",
+            "awk -F':' '$4 >= 300 && $4 <= 499'",
+            "awk -f':' '$4 >= 300 && $4 <= 499'"
+        ],
+        "answer": "awk -F':' '$5 >= 300 && $5 <= 499'"
+    },
+    {
+        "question": "Tính i = i + 1 với i là biến?",
+        "options": [
+            "i = $((i+1))",
+            "i = i+1",
+            "i = $(i+1)",
+            "i = i++"
+        ],
+        "answer": "i = $((i+1))"
+    },
+    {
+        "question": "Định dạng các dòng trong tệp tin /etc/fstab?",
+        "options": [
+          "<file system> <mount point> <type> <options> <dump> <pass>",
+          "<device> <mount-point> <fstype> <options> <dump> <fsck>",
+          "<file systemsystem> <mount-point> <fstype> <options> <dump> <fsck>",
+          "<device> <mount-point> <fstype> <options> <dump> <pass>"
+        ],
+        "answer": "<device> <mount-point> <fstype> <options> <dump> <fsck>"
+      },
+      
+    
+    {
+        "question": "Hãy viết lệnh cho biết hiện tại có những User nào đang đăng nhập vào hệ thống và đăng nhập lúc mấy giờ?",
+        "options": [
+            "who",
+            "whoami",
+            "ls -l",
+            "reboot"
+        ],
+        "answer": "who"
+    },
+    {
+        "question": "Cho umask=235, Anh/chị hãy tính Resulting File Permission và Resulting Dir Permission?",
+        "options": [
+            "Resulting File Permission là 606 Resulting Dir Permission là 707",
+            "Resulting File Permission là 431 Resulting Dir Permission là 542",
+            "Resulting File Permission là 312 Resulting Dir Permission là 355",
+            "Resulting File Permission là 6336 Resulting Dir Permission là 002"
+        ],
+        "answer": "Resulting File Permission là 431 Resulting Dir Permission là 542"
+    },
+    {
+        "question": "Kiểm tra một người dùng có trên hệ thống hay không?",
+        "options": [
+            "id <username>",
+            "who",
+            "who | grep \"^<username>\"",
+            "grep <username>;"
+        ],
+        "answer": "id <username>"
+    },
+        {
+            "question":"Quyền thực thi của folder có ý nghĩa gì",
+            "options":["Cho phép người dùng có thể truy cập, thực thi các danh sách file bên trong","Cho phép người dùng thực thi các chương trình nằm thư mục","Cho phép người dùng đọc thư mục","Cho phép người dùng truy cập nhưng không cho phép thực thi"],
+            "answer":"Cho phép người dùng có thể truy cập, thực thi các danh sách file bên trong"
+        },
+        {
+            "question":"Anh/chị hãy cho biết Shell là gì ?",
+            "options":[
+                "Shell là chương trình cho phép người dùng giao tiếp với hệ điều hành thông qua cửa sổ dòng lệnh",
+                "Shell là chương trình cho phép người dùng giao tiếp với hệ điều hành thông qua giao diện GUI",
+                "Shell là chương trình hỗ trợ người quản lý hệ thống",
+                "Shell là chương trình bảo mật có sẵn trên Linux"
+        ],
+        "answer":"Shell là chương trình cho phép người dùng giao tiếp với hệ điều hành thông qua cửa sổ dòng lệnh"
+        },
+        {
+            "question":"Quan sát bảng crontab chúng ta thấy các dòng sau: 30 7,15 * * 3-4 reboot Anh/chị hãy cho biết ý nghĩa của nó ?",
+            "options":[
+                "Có ý nghĩa là lệnh reboot sẽ được thực thi vào lúc 7:30 và 15:30 vào các ngày thứ Tư và thứ Năm hàng tuần",
+                "Có ý nghĩa là lệnh reboot sẽ được thực thi vào lúc 7:30 và 15:30 vào các ngày thứ Ba và thứ Tư hàng tuần",
+            "Có ý nghĩa là lệnh reboot sẽ được thực thi vào lúc 7:000 và 15:00 vào các ngày thứ Ba và thứ Tư hàng tuần",
+            "Có ý nghĩa là lệnh reboot sẽ được thực thi vào lúc 7:00 và 15:00 vào các ngày thứ Tư và thứ Năm hàng tuần"
+        ],
+        "answer":"Có ý nghĩa là lệnh reboot sẽ được thực thi vào lúc 7:30 và 15:30 vào các ngày thứ Tư và thứ Năm hàng tuần"
+        },
+        {
+            "question":"Anh/chị hãy viết 1 dòng lập lịch trong bảng Cron chạy /shellscript/backup.sh vào 17h30 hàng ngày",
+            "options":[
+                "crontab -e \n 30 17 * * * /shellscript/backup.sh",
+                "crontab -a \n 30 17 * * * /shellscript/backup.sh",
+                "crontab -e \n 30 5 PM * * * /shellscript/backup.sh",
+                "crontab -e \n 30 17 PM * * * /shellscript/backup.sh"
+            ],
+            "answer":"crontab -e \n 30 17 * * * /shellscript/backup.sh"
+        },
+        {
+            "question":"Anh/chị hãy cho biết câu lệnh danh sách người dùng thuộc nhóm có GID=660 ?",
+            "options":[
+                "getent group 660",
+                "groupadd group 660",
+                "groupadd 660",
+                "grep group 660"
+            ],
+            "answer":"getent group 660"
+        },
+        {
+            "question":"Tiến trình (process) là gì ?",
+            "options":[
+                "Là một chương trình đang được thực thi",
+                "Là một chương trình đã được cài đặt trên máy",
+                "Là một chương trình đã được thực thi",
+                "Là một chương trình đang được cài đặt"
+            ],
+            "answer":"Là một chương trình đang được thực thi"
+        },
+        {
+            "question":"Đếm số người dùng đang đăng nhập vào hệ thống ?",
+            "options":["who | wc -l","who","whoami","grep user | wc -l"],
+            "answer":"who | wc -l"
+        },
+        {
+            "question":"Linux Kernel là gì ?",
+            "options":[
+                "Là thành phần trung tâm của hệ điều hành Linux đóng vai trò quản lý các tài nguyên hệ thống",
+                "Là một loại của hệ điều hành Linux",
+                "Là một chương trình quản lý host của Linux",
+                "Là một chương trình quản lý các gói tài nguyên đã được cài đặt"
+            ],
+            "answer":"Là thành phần trung tâm của hệ điều hành Linux đóng vai trò quản lý các tài nguyên hệ thống"
+        }
+]
