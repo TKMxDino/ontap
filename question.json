@@ -58,7 +58,7 @@
         "at 07:00 + 3 days checksys.sh"
     ],
     "answer": "echo \"bash /path/to/checksys.sh\" | at 07:00 + 3 days"
-}
+},
 
     {
         "question": "Anh/chị hãy cho biết ý nghĩa của file /dev/sdc2?",
