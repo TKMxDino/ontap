@@ -50,16 +50,15 @@
         "answer": "groupadd KillNcovi useradd -m -g KillNcovi covid19 passwd covid19"
     },
     {
-    "question": "Anh/chị hãy viết câu lệnh lập lịch với 'at': Chạy các câu lệnh được liệt kê trong tập tin checksys.sh vào 7am, 3 ngày tiếp theo?",
-    "options": [
-        "at 07:00 + 3 days < /path/to/checksys.sh",
-        "for i in 1 2 3; do echo \"bash /path/to/checksys.sh\" | at 07:00 +${i} days; done",
-        "echo \"bash /path/to/checksys.sh\" | at 07:00 + 3 days",
-        "at 07:00 + 3 days checksys.sh"
-    ],
-    "answer": "echo \"bash /path/to/checksys.sh\" | at 07:00 + 3 days"
-},
-
+        "question": "Anh/chị hãy viết câu lệnh lập lịch với 'at': Chạy các câu lệnh được liệt kê trong tập tin checksys.sh vào 7am, 3 ngày tiếp theo?",
+        "options": [
+            "at 07:00 + 3 days < /path/to/checksys.sh",
+            "for i = 1:3; do echo \"bash /path/to/checksys.sh\" | at 07:00 +${i} days; done",
+            "echo \"bash /path/to/checksys.sh\" | at 07:00 + 3 days",
+            "at 07:00 + 3 days checksys.sh"
+        ],
+        "answer": "echo \"bash /path/to/checksys.sh\" | at 07:00 + 3 days"
+    },
     {
         "question": "Anh/chị hãy cho biết ý nghĩa của file /dev/sdc2?",
         "options": [
