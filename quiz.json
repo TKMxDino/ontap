@@ -97,7 +97,7 @@
         {
             "question": "Tập tin sau đây có thuộc tính như thế nào: rwx--x-wx danhsach.xls?",
             "options": ["710", "713", "644", "755"],
-            "answer": ""
+            "answer": "713"
         },
         {
             "question": "File quản lý thiết bị đĩa mềm trên Linux có thể là file nào sau đây?",
