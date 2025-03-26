@@ -1,0 +1,411 @@
+[
+        {
+            "question": "Quan sát file /etc/shadow ta thấy dòng sau: sinhvien:\n $6$3WWbKfr1$4vblknvGr6FcDeF92R5xF/n3mskfdnEnnWNtLdl.\nEtq5oLVqj.UVhoWJKF4.FstCXcrj4SkARtpAigfRm1:15747:0:90:5:30:16018:\nHãy cho biết thuật toán dùng mã hóa mật khẩu ở đây là gì?",
+            "options": ["SHA256", "SHA512", "MD5", "DES"],
+            "answer": "SHA256"
+        },
+        {
+            "question": "Mã khởi động (boot code) của Grub nằm ở đâu trên HDD?",
+            "options": ["/boot/grub/grub.conf", "Boot ROM", "/boot", "MBR"],
+            "answer": "/boot"
+        },
+        {
+            "question": "Câu lệnh nào sau đây được dùng để kiểm tra cấp chạy hiện tại?",
+            "options": ["level", "rlevel", "runlevel", "showlevel"],
+            "answer": "runlevel"
+        },
+        {
+            "question": "Lệnh nào sau đây được dùng để hiển thị tất cả các biến môi trường?",
+            "options": ["show", "show var", "varlist", "set"],
+            "answer": "set"
+        },
+        {
+            "question": "Quyền truy cập của file khi mới được tạo bằng bao nhiêu nếu umask là 027?",
+            "options": ["640", "027", "641", "750"],
+            "answer": "640"
+        },
+        {
+            "question": "Để xem và thiết lập địa chỉ IP cho một máy Linux ta sử dụng lệnh nào trong các lệnh sau đây?",
+            "options": ["ifconfig", "route", "netstat", "ipconfig"],
+            "answer": "ifconfig"
+        },
+        {
+            "question": "Hãy cho biết quyền truy cập mặc định của tập tin /etc/shadow trên hệ thống Redhat?",
+            "options": ["440", "642", "400", "644"],
+            "answer": "400"
+        },
+        {
+            "question": "Để kiểm tra gói phần mềm openssh-3.6.i386.rpm đã được cài đặt chưa, ta dùng lệnh nào sau đây?",
+            "options": ["rpm –qa openssh-3.6.i386.rpm", "rpm –e openssh-3.6.i386.rpm", "rpm –ivh openssh3.6.i386.rpm", "rpm –qi openssh3.6.i386.rpm"],
+            "answer": "rpm –qi openssh3.6.i386.rpm"
+        },
+        {
+            "question": "Khi sử dụng lệnh “ls –l” thì ký tự đầu mỗi dòng cho biết:",
+            "options": ["Loại tập tin", "Thư mục", "Tên tập tin", "Tập tin"],
+            "answer": "Loại tập tin"
+        },
+        {
+            "question": "Ý nghĩa của Sticky bit (bit dính) được gán cho thư mục là gì?",
+            "options": [
+                "Người sử dụng với quyền ghi trong thư mục này.",
+                "Không có nghĩa. Sticky bit chỉ sử dụng cho các file thường.",
+                "Bất kỳ người sử dụng nào cũng có thể xóa các file trong thư mục này, thậm chí nếu anh ta không phải là chủ sở hữu của file.",
+                "Người sử dụng với quyền ghi trong thư mục này nhưng không thể xóa (remove) các file trong thư mục đó nếu anh ta không phải là chủ sở hữu (hoặc root) của file."
+            ],
+            "answer": "Người sử dụng với quyền ghi trong thư mục này nhưng không thể xóa (remove) các file trong thư mục đó nếu anh ta không phải là chủ sở hữu (hoặc root) của file."
+        },
+        {
+            "question": "Tổ hợp lệnh nào sau đây đếm số USER đang đăng nhập vào hệ thống LINUX?",
+            "options": [
+                "who | cut -d' ' -f1 | uniq | wc -l | sort -r",
+                "who | cut -d' ' -f1 | sort -r | wc -l | uniq",
+                "who | cut -d' ' -f1 | sort -r | uniq | wc -l",
+                "who | sort -r | uniq | wc -l | cut -d' ' -f1"
+            ],
+            "answer": "who | cut -d' ' -f1 | sort -r | uniq | wc -l"
+        },
+        {
+            "question": "Để xem nội dung một tập tin văn bản trong Linux ta có thể dùng lệnh nào sau đây?",
+            "options": ["more", "CAT", "touch", "LESS"],
+            "answer": "more"
+        },
+        {
+            "question": "Một user có username là Jerry và home directory của anh ta là /home/Jerry. Để trở về thư mục chủ của anh ta 1 cách nhanh nhất, anh ta phải dùng lệnh:",
+            "options": ["cd Jerry", "cd /home/Jerry", "cd / ; cd home ; cd Jerry", "cd ~Jerry"],
+            "answer": "cd ~Jerry"
+        },
+        {
+            "question": "Trong thế giới Linux, Web Server gì thường được sử dụng hiện nay?",
+            "options": ["Foo", "WU-TTPD", "Apache", "Squid"],
+            "answer": "Apache"
+        },
+        {
+            "question": "Bạn muốn quyền truy cập mặc định của tập tin là: rw-r----- Vậy bạn sẽ thiết lập giá trị umask bằng bao nhiêu?",
+            "options": ["027", "047", "038", "640"],
+            "answer": "027"
+        },
+        {
+            "question": "Lệnh gì sẽ gửi dữ liệu ra của cmd1 làm dữ liệu vào cho cmd2?",
+            "options": ["cmd1 && cmd2", "cmd1;cmd2", "cmd1 || cmd2", "cmd1 | cmd2"],
+            "answer": "cmd1 | cmd2"
+        },
+        {
+            "question": "Lệnh sau đây tương đương lệnh nào: chmod u=rwxs,g=r,o=- baitap.txt?",
+            "options": ["chmod 6740 baitap.txt", "chmod 4747 baitap.txt", "chmod 2740 baitap.txt", "chmod 4740 baitap.txt"],
+            "answer": "chmod 6740 baitap.txt"
+        },
+        {
+            "question": "Tập tin sau đây có thuộc tính như thế nào: rwx--x-wx danhsach.xls?",
+            "options": ["710", "713", "644", "755"],
+            "answer": "710"
+        },
+        {
+            "question": "File quản lý thiết bị đĩa mềm trên Linux có thể là file nào sau đây?",
+            "options": ["/dev/fd2", "/dev/fd0", "/dev/fa0"],
+            "answer": "/dev/fd0"
+        },
+        
+            {
+                "question": "Trong tập tin cấu hình GRUB có dòng sau: root (hd1, 2). Hãy cho biết tên thiết bị trên hệ thống Linux?",
+                "options": [
+                    "/dev/hdb4",
+                    "/dev/hda4",
+                    "/dev/hdb3",
+                    "/dev/hda3"
+                ],
+                "answer": "/dev/hda4"
+            },
+            {
+                "question": "Lệnh nào cho phép chỉnh sửa bảng cron của người dùng?",
+                "options": [
+                    "cronedit",
+                    "vi crontab",
+                    "crontab -e",
+                    "vi /var/spool/cron/root"
+                ],
+                "answer": "crontab -e"
+            },
+            {
+                "question": "Để xử lý chương trình myprogram hàng ngày vào lúc 6:15am, sử dụng một dòng trong tập tin crontab như thế nào?",
+                "options": [
+                    "6 15 * * * myprogram",
+                    "15 6 * * * myprogram",
+                    "* 6 15 * * myprogram",
+                    "* * 15 6 * myprogram"
+                ],
+                "answer": "15 6 * * * myprogram"
+            },
+            {
+                "question": "Giao thức nào có thể được dùng để login từ xa qua mạng vào một server Linux?",
+                "options": [
+                    "Dùng ssh",
+                    "Dùng ssl",
+                    "Dùng login"
+                ],
+                "answer": "Dùng ssh"
+            },
+            {
+                "question": "Hãy cho biết ý nghĩa của dấu chấm vị trí (2)?",
+                "options": [
+                    "Chỉ là 1 ký tự trong filename",
+                    "File/Folder có thuộc tính ẩn",
+                    "Lệnh chấm (.)",
+                    "Current Dir"
+                ],
+                "answer": "File/Folder có thuộc tính ẩn"
+            },
+            {
+                "question": "Lệnh nào có thể được sử dụng để tìm kiếm một từ trong một file văn bản mà không mở file?",
+                "options": [
+                    "vi",
+                    "grep",
+                    "find",
+                    "less"
+                ],
+                "answer": "grep"
+            },
+            {
+                "question": "Để backup cơ sở dữ liệu vào 11:00 & 16:00 hàng ngày ta cấu hình trong bảng cron như thế nào?",
+                "options": [
+                    "11,16 0 * * * /home/perl/backup.pl",
+                    "11 0 16 0 * /home/perl/backup.pl",
+                    "0 11-16 * * * /home/perl/backup.pl",
+                    "0 11,16 * * * /home/perl/backup.pl"
+                ],
+                "answer": "0 11,16 * * * /home/perl/backup.pl"
+            },
+            {
+                "question": "Bạn là Admin, sau khi Tom rời khỏi công ty, bạn dùng lệnh userdel Tom để xoá user này. Làm thế nào để khẳng định home directory cũng đã bị xoá?",
+                "options": [
+                    "userdel –r Tom",
+                    "userdel –l Tom",
+                    "userdel –u Tom",
+                    "userdel –m Tom"
+                ],
+                "answer": "userdel –r Tom"
+            },
+            {
+                "question": "Chương trình soạn thảo văn bản nào phổ biến nhất trong hệ điều hành Linux?",
+                "options": [
+                    "Emacs",
+                    "Pico",
+                    "Word",
+                    "vi"
+                ],
+                "answer": "vi"
+            },
+            {
+                "question": "Trong vi, để thoát không cần lưu ta dùng lệnh nào?",
+                "options": [
+                    "ESC:wq!",
+                    "ESC:w!",
+                    "ESC:!",
+                    "ESC:q!"
+                ],
+                "answer": "ESC:q!"
+            },
+            {
+                "question": "Cho biết kết quả của lệnh sau: date > lich.txt",
+                "options": [
+                    "Hiển thị nội dung tập tin lich.txt",
+                    "Kết quả của lệnh date sẽ được lưu đè vào file lich.txt",
+                    "Trên màn hình sẽ hiển thị ngày giờ hiện tại",
+                    "Trên màn hình sẽ xuất hiện thông báo nhập liệu cho tập tin lich.txt"
+                ],
+                "answer": "Kết quả của lệnh date sẽ được lưu đè vào file lich.txt"
+            },
+            {
+                "question": "Tiền thân của hệ điều hành Linux là gì?",
+                "options": [
+                    "Solaris",
+                    "Windows",
+                    "Unix",
+                    "Mac OS"
+                ],
+                "answer": "Unix"
+            },
+            {
+                "question": "Tạo mới 1 user có tên student bằng lệnh useradd student. Theo mặc định, user này thuộc group nào?",
+                "options": [
+                    "everyone",
+                    "student",
+                    "superuser",
+                    "users"
+                ],
+                "answer": "users"
+            },
+            {
+                "question": "Công cụ nào thực hiện tính toán số học?",
+                "options": [
+                    "bc",
+                    "BC -L",
+                    "cal",
+                    "calculator"
+                ],
+                "answer": "bc"
+            },
+            {
+                "question": "Tập tin điều quản thiết bị?",
+                "options": [
+                    "/etc/device",
+                    "/dev/device",
+                    "/etc/fstab",
+                    "/device/fstab"
+                ],
+                "answer": "/dev/device"
+            },
+            {
+                "question": "Lệnh nào dùng để đọc nội dung của biến môi trường PATH trong bash shell?",
+                "options": [
+                    "echo $PATH",
+                    "echo %PATH%",
+                    "print $PATH",
+                    "echo PATH"
+                ],
+                "answer": "echo $PATH"
+            },
+            {
+                "question": "Câu lệnh nào dùng để xem số lượng khối (blocks) tự do trên phân vùng /dev/sda2?",
+                "options": [
+                    "dm -i /dev/sda2",
+                    "ls -i /dev/sda2",
+                    "du -b /dev/sda2",
+                    "df /dev/sda2"
+                ],
+                "answer": "df /dev/sda2"
+            },
+            {
+                "question": "Các tiến trình bắt đầu bởi một người dùng thường có giá trị 'nice number' là bao nhiêu?",
+                "options": [
+                    "1",
+                    "19",
+                    "0",
+                    "-20"
+                ],
+                "answer": "19"
+            },
+            {
+                "question": "Lập lịch với crontab: Muốn lập lịch vào lúc 17h30, thứ 6 và thứ 7 hàng tuần, với nhiệm vụ là SHUTDOWN máy, sử dụng một dòng trong tập tin crontab như thế nào?",
+                "options": [
+                    "30 17 * * 6,7 init 0",
+                    "30 17 * * 6,7 shutdown",
+                    "30 17 * * 5,6 init 0",
+                    "30 17 * * 4,5 shutdown"
+                ],
+                "answer": "30 17 * * 5,6 init 0"
+            },
+            {
+                "question": "Để tạo tài khoản người dùng 'Tom' là thành viên của nhóm 'admin', ta dùng lệnh?",
+                "options": [
+                    "useradd –m admin Tom",
+                    "useradd –G admin Tom",
+                    "useradd admin Tom",
+                    "useradd –g admin Tom"
+                ],
+                "answer": "useradd –g admin Tom"
+            },
+            {
+                "question": "Câu lệnh nào cho biết chủ sở hữu của thư mục /home/ktm?",
+                "options": [
+                    "ls -ld /home/ktm | tr -s \" \" | cut -d' ' -f3",
+                    "ls -l /home/ktm | tr -s \" \" | cut -d' ' -f3",
+                    "ls -l /home/ktm | tr -s \" \" | cut -d' ' -f2",
+                    "ls -ld /home/ktm | tr -s \" \" | cut -d' ' -f4"
+                ],
+                "answer": "ls -ld /home/ktm | tr -s \" \" | cut -d' ' -f3"
+            },
+        
+            
+                {
+                    "question": "Trong các bản phân phối Linux có phiên bản nhân 2.6.x thì số lượng tối đa tài khoản người dùng là:",
+                    "options": [
+                        "65535",
+                        "2^32",
+                        "2^10",
+                        "2^16"
+                    ],
+                    "answer": "2^32"
+                },
+                {
+                    "question": "File nào trong số các file dưới đây chứa các biến môi trường khi sử dụng Bash Shell?",
+                    "options": [
+                        "~/bash",
+                        "/etc/profile",
+                        "/bash",
+                        "~/.profile"
+                    ],
+                    "answer": "/etc/profile"
+                },
+                {
+                    "question": "Để kiểm tra 2 số a có lớn hơn b không ta dùng cú pháp nào sau đây (Chọn 1 đáp án đúng nhất)?",
+                    "options": [
+                        "test a -gt b",
+                        "[a -gt b]",
+                        "test $a -gt $b",
+                        "[ a > b ]"
+                    ],
+                    "answer": "test $a -gt $b"
+                },
+                {
+                    "question": "Hãy cho biết lệnh nào sau đây thực hiện gán nice number là -2 cho tiến trình 'top'?",
+                    "options": [
+                        "[...]#nice --2 top",
+                        "[...]#nice -2 top",
+                        "[...]$nice -n -2 top",
+                        "[...]$nice --2 top"
+                    ],
+                    "answer": "[...]$nice -n -2 top"
+                },
+                {
+                    "question": "Trong các bản phân phối Linux có phiên bản nhân 2.4.x thì số lượng tối đa tài khoản người dùng là:",
+                    "options": [
+                        "2^16",
+                        "2^10",
+                        "65535",
+                        "2^32"
+                    ],
+                    "answer": "65535"
+                },
+                {
+                    "question": "Tên file điều khiển thiết bị cho đĩa logic thứ 2 trên ổ đĩa cứng SCSI thứ 2 là:",
+                    "options": [
+                        "/dev/sda6",
+                        "/dev/sdb6",
+                        "/dev/sdb2",
+                        "/dev/sda5"
+                    ],
+                    "answer": "/dev/sdb6"
+                },
+                {
+                    "question": "Mỗi tiến trình chạy trong hệ thống Linux được đặc trưng bởi:",
+                    "options": [
+                        "PID",
+                        "GUID",
+                        "PUID",
+                        "PGUID"
+                    ],
+                    "answer": "PID"
+                },
+                {
+                    "question": "Lệnh nào cho phép tạo một người dùng mới trên hệ thống Linux?",
+                    "options": [
+                        "Lệnh passwd",
+                        "Lệnh newuser",
+                        "Lệnh useradd",
+                        "Lệnh newacct"
+                    ],
+                    "answer": "Lệnh useradd"
+                },
+                {
+                    "question": "Máy tính của bạn có 1 ổ cứng và bạn đang chuẩn bị cài Linux. Bạn muốn có 5 partitions khác nhau và đã tạo ra được 4 partitions. Còn partition thứ 5 không cách nào tạo ra được. Điều gì đã xảy ra?",
+                    "options": [
+                        "Trên 1 đĩa cứng vật lý không cho phép tạo quá 4 Partitions",
+                        "Ổ cứng của bạn không đủ dung lượng để tạo hơn 4 partition",
+                        "Bạn phải tạo swap partition",
+                        "Linux không cho phép tạo hơn 4 partitions"
+                    ],
+                    "answer": "Trên 1 đĩa cứng vật lý không cho phép tạo quá 4 Partitions"
+                }
+            
+            
+    ]
