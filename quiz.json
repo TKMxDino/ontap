@@ -282,7 +282,7 @@
                     "0",
                     "-20"
                 ],
-                "answer": ""
+                "answer": "0"
             },
             {
                 "question": "Lập lịch với crontab: Muốn lập lịch vào lúc 17h30, thứ 6 và thứ 7 hàng tuần, với nhiệm vụ là SHUTDOWN máy, sử dụng một dòng trong tập tin crontab như thế nào?",
@@ -359,7 +359,7 @@
                 {
                     "question": "Trong các bản phân phối Linux có phiên bản nhân 2.4.x thì số lượng tối đa tài khoản người dùng là:",
                     "options": [
-                        "2^16",
+                        "2^8",
                         "2^10",
                         "65535",
                         "2^32"
@@ -374,7 +374,7 @@
                         "/dev/sdb2",
                         "/dev/sda5"
                     ],
-                    "answer": "/dev/sdb6"
+                    "answer": "/dev/sdb2"
                 },
                 {
                     "question": "Mỗi tiến trình chạy trong hệ thống Linux được đặc trưng bởi:",
